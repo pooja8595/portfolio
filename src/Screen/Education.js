@@ -28,7 +28,7 @@ const Education = () => {
                     <Text style={{ color: '#000', fontSize: 14, fontWeight: 500 }}>Higher Secondary Examination - Class X</Text>
                     <Text style={{ color: '#000', fontSize: 13, }}>Modern Vidaya Mandir, Haryana 68 % </Text>
                 </View>
-                <View style={{ marginHorizontal: 10, marginVertical: 15 }}>
+                <View style={{ marginHorizontal: 10, marginVertical: 10 }}>
                     <Text style={{ color: '#000', fontSize: 14, fontWeight: 500 }}>AWARDS : </Text>
                 </View>
                 <View style={{
@@ -48,8 +48,29 @@ const Education = () => {
                     <Text style={{ color: '#000', fontSize: 14, fontWeight: 500 }}>Java Web Application Development from Aptech Learning.
                     </Text>
                 </View>
+                <View style={{ marginHorizontal: 10, marginVertical: 10 }}>
+                    <Text style={{ color: '#000', fontSize: 14, fontWeight: 500 }}>Technical tool : </Text>
+                </View>
+                <View style={{
+                    height: 1,
+                    backgroundColor: '#bfbfbf',
+                }} />
+                <View style={{ marginHorizontal: 10, marginVertical: 10, }}>
+                    <Text style={{ color: '#000', fontSize: 14, fontWeight: 500 }}>HTML ,CSS , JavaScript, React Js, React native,Java,Github ,Gitlab,Bitbucket
+                    </Text>
+                </View>
+                <View style={{ marginHorizontal: 10, marginVertical: 15 }}>
+                    <Text style={{ color: '#000', fontSize: 14, fontWeight: 500 }}>Code Editor : </Text>
+                </View>
+                <View style={{
+                    height: 1,
+                    backgroundColor: '#bfbfbf',
+                }} />
+                <View style={{ marginHorizontal: 10, marginVertical: 10, }}>
+                    <Text style={{ color: '#000', fontSize: 14, fontWeight: 500 }}> Microsoft Visual Studio,Sublime</Text>
+                </View>
             </ScrollView>
-            <TouchableOpacity style={{ alignSelf: 'flex-end', marginHorizontal: 10, marginBottom: 50, backgroundColor: "#0200fe", paddingHorizontal: 30, paddingVertical: 10, marginVertical: 10, borderRadius: 5 }} onPress={() => navigation?.navigate('Awards')}>
+            <TouchableOpacity style={{ alignSelf: 'flex-end', marginHorizontal: 10, marginBottom: 20, backgroundColor: "#0200fe", paddingHorizontal: 30, paddingVertical: 10, marginVertical: 10, borderRadius: 5 }} onPress={() => navigation?.navigate('Awards')}>
                 <Text style={{ color: '#fff' }}>Next</Text>
             </TouchableOpacity>
         </SafeAreaView>
