@@ -9,7 +9,7 @@ const Awards = () => {
       <Animatable.Image
         animation="zoomIn"
         duration={2000}
-        source={require('../Assets/thank.png')}
+        source={require('../Assets/portfolios.png')}
         style={{
           width: "67%",
           height: "28%",
